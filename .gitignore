@@ -1,0 +1,9 @@
+node_modules
+.env
+Readme.txt
+public/uploads/*
+!public/uploads/.gitkeep
+yarn-error.log
+access.log
+logs/*
+!logs/.gitkeep

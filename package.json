@@ -1,0 +1,46 @@
+{
+  "name": "social-profiles-syncker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "apify-client": "^1.2.6",
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "cookie-parser": "~1.4.4",
+    "date-fns": "^2.22.1",
+    "debug": "~4.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "https-proxy-agent": "^5.0.0",
+    "jade": "~1.11.0",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.12.12",
+    "morgan": "~1.10.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "pino": "^6.11.3",
+    "pino-pretty": "^5.0.2",
+    "randomcolor": "^0.6.2",
+    "sequelize": "^6.6.2",
+    "simple-log-viewer": "^1.0.5",
+    "winston": "^3.3.3",
+    "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "main": "app.js",
+  "repository": "git+https://gitlab.com/es-amit-sonar/msv-social-profiles-updater.git",
+  "author": "poonamlama <poonamlama@github.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/es-amit-sonar/msv-social-profiles-updater/issues"
+  },
+  "homepage": "https://gitlab.com/es-amit-sonar/msv-social-profiles-updater#readme",
+  "description": ""
+}

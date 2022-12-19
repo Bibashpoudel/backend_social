@@ -1,0 +1,25 @@
+const dotenv = require('dotenv');
+dotenv.config();
+module.exports = {
+    appPort: process.env.APP_PORT,
+    dbMysqlHost: process.env.DB_MYSQL_HOST,
+    dbMysqlPort: process.env.DB_MYSQL_PORT,
+    dbMysqlDialect: process.env.DB_MYSQL_DIALECT,
+    dbMysqlDatabase: process.env.DB_MYSQL_DATABASE,
+    dbMysqlUsername: process.env.DB_MYSQL_USERNAME,
+    dbMysqlPassword: process.env.DB_MYSQL_PASSWORD,
+    mongoDbConnectionURL: process.env.MONGO_DB_CONNECTION_URL,
+    profileUpdateInterval: process.env.PROFILE_UPDATE_INTERVAL,
+    profileFeedsNextPageRequestInterval: process.env.PROFILE_FEEDS_NEXT_PAGE_REQUEST_INTERVAL,
+    socialMediaProfileUpdateMode: process.env.SOCIAL_PROFILE_UPDATE_MODE,
+    igBaseURL: process.env.IG_BASE_URL,
+    igSearchBaseURL: process.env.IG_SEARCH_URL,
+    apifyAccessToken: process.env.APIFY_ACCESS_TOKEN,
+    loginUsername: process.env.USERNAME,
+    loginPassword: process.env.PASSWORD,
+    scrollWaitSecs: parseInt(process.env.SCROLL_WAIT),
+    maxRequestRetries: parseInt(process.env.REQUEST_RETRY),
+    useStealth: process.env.USE_STEALTH == 'true' ? true : false,
+    ravenxApi: process.env.RAVENX_API,
+    profileUpdateTimezone: process.env.PROFILE_UPDATE_TIMEZONE,
+};
